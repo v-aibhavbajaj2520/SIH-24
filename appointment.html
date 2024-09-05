@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthGrid Integrators</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="branding">
+                <h1>HealthGrid Integrators</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Form Section -->
+    <div class="form-container">
+        <form>
+            <div class="form-column">
+                <label for="department">Department</label>
+                <select id="department" name="department">
+                    <option value="cardiology">Cardiology</option>
+                    <option value="neurology">Neurology</option>
+                    <option value="orthopedics">Orthopedics</option>
+                    <option value="pediatrics">Pediatrics</option>
+                </select>
+
+                <label for="test-lab">Test Labs</label>
+                <select id="test-lab" name="test-lab">
+                    <option value="lab1">Lab 1</option>
+                    <option value="lab2">Lab 2</option>
+                    <option value="lab3">Lab 3</option>
+                </select>
+
+                <label for="patient-name">Patient Name</label>
+                <input type="text" id="patient-name" name="patient-name" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-column">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Enter Your Age">
+
+                <label for="mobile-number">Mobile Number</label>
+                <input type="text" id="mobile-number" name="mobile-number" placeholder="Enter Your Mobile Number">
+
+                <label for="appointment-date">Appointment Date</label>
+                <input type="date" id="appointment-date" name="appointment-date">
+            </div>
+
+            <div class="form-column-full">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4" placeholder="Enter any additional information..."></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>HealthGrid Integrators</h2>
+            </div>
+            <div class="footer-contact">
+                <p>Email: info@healthgrid.com</p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
