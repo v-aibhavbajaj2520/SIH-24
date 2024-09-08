@@ -1,6 +1,6 @@
-Thanks for downloading this template!
 
-Template Name: Medilab
-Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Here's the updated project description:
+
+Project: Smart Hospital Queue and Bed Management System
+
+As part of the Smart India Hackathon (SIH) 2024, I developed a Smart Hospital Queue and Bed Management System addressing problem statement 1620. The project focuses on optimizing the flow of patients in hospital OPDs and improving real-time bed availability management. Our solution integrates a Smart Queuing System for Outpatient Departments (OPDs) with a Real-time Bed Management System, enabling patients to book appointments online, reducing wait times, and streamlining patient allocation. By utilizing modern web technologies and data-driven decision-making, we aim to significantly improve the patient experience and operational workflows in healthcare settings.
